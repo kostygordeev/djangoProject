@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn
 import datetime
 
-def get_cur_inf():
+def get_cur_inf(num_days):
     n = datetime.datetime.now()
     n_str = n.strftime("%Y-%m-%d")
-    t = n - datetime.timedelta(days=90)
+    t = n - datetime.timedelta(days=num_days)
     t_str = t.strftime("%Y-%m-%d")
     q = "https://api.apilayer.com/fixer/timeseries?"
     q += ("start_date=" + t_str + '&')
@@ -28,8 +28,8 @@ def parse_json_res_str(string=FIRST_RES):
         result[key] = cur_inf['rates'][key]['RUB']
     return result
 
-def pred_values(days_num):
-    data = get_cur_inf()
+def pred_values(days_num,num_days ):
+    data = get_cur_inf(num_days)
     cur_inf = parse_json_res_str(data)
     x = list([i + 1 for i in range(len(cur_inf))])
     y = list(cur_inf.values())
@@ -40,8 +40,8 @@ def pred_values(days_num):
         result.append(new_value)
     return result
 
-def create_pred_plot(days_num):
-    data = pred_values(days_num)
+def create_pred_plot(days_num, num_days):
+    data = pred_values(days_num, num_days)
     dates = []
     n = datetime.datetime.now()
     for i in range(days_num):
