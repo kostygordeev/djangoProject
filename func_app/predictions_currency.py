@@ -2,8 +2,10 @@ from func_app.constants import API_KEY, FIRST_RES
 from scipy.interpolate import UnivariateSpline
 import json
 import matplotlib.pyplot as plt
-import seaborn
+from matplotlib import rcParams
+import seaborn as sns
 import datetime
+
 
 def get_cur_inf(num_days):
     n = datetime.datetime.now()
@@ -21,6 +23,7 @@ def get_cur_inf(num_days):
     # return response.text
     return FIRST_RES
 
+
 def parse_json_res_str(string=FIRST_RES):
     cur_inf = json.loads(string)
     result = dict()
@@ -28,7 +31,8 @@ def parse_json_res_str(string=FIRST_RES):
         result[key] = cur_inf['rates'][key]['RUB']
     return result
 
-def pred_values(days_num,num_days ):
+
+def pred_values(days_num, num_days):
     data = get_cur_inf(num_days)
     cur_inf = parse_json_res_str(data)
     x = list([i + 1 for i in range(len(cur_inf))])
@@ -40,14 +44,21 @@ def pred_values(days_num,num_days ):
         result.append(new_value)
     return result
 
+
 def create_pred_plot(days_num, num_days):
+    sns.set_theme(style="darkgrid")
+    rcParams['figure.figsize'] = 12, 12
     data = pred_values(days_num, num_days)
     dates = []
     n = datetime.datetime.now()
     for i in range(days_num):
         n = n + datetime.timedelta(days=1)
         dates.append(n.strftime("%y/%m/%d"))
-    seaborn.lineplot(x=dates, y=data)
+    sns.lineplot(x=dates, y=data)
+    plt.xlabel(
+        'dates')
+    plt.ylabel(
+        'data')
     plt.xticks(rotation=80)
     return save_plot()
 
