@@ -54,7 +54,8 @@ def create_pred_plot(days_num, num_days):
     for i in range(days_num):
         n = n + datetime.timedelta(days=1)
         dates.append(n.strftime("%y/%m/%d"))
-    sns.lineplot(x=dates, y=data)
+    sns.lineplot(x=dates, y=data, color='purple', dashes=True, markers=True)
+    plt.fill_between(dates, data, min(data), facecolor="blue", color="green", alpha=0.3)
     plt.xlabel(
         'dates')
     plt.ylabel(
