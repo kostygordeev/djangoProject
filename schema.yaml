@@ -1,0 +1,76 @@
+openapi: 3.0.3
+info:
+  title: Summator API
+  version: 1.0.0
+  description: API that sums two integer operands
+paths:
+  /api:
+    get:
+      operationId: api_retrieve
+      description: Prediction of the exchange rate of the Kazakhstan tenge to the
+        Russian ruble
+      parameters:
+      - in: query
+        name: api_key
+        schema:
+          type: string
+        description: API key for authentication
+        required: true
+      - in: query
+        name: days_num
+        schema:
+          type: integer
+        description: the number of days we are analyzing
+        required: true
+      - in: query
+        name: num_days
+        schema:
+          type: integer
+        description: the number of days we apply the analysis
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Predictions_currency_Serializers'
+              examples:
+                Example1:
+                  value:
+                    status: ok
+                    result_message: plot59.png
+                  summary: Code ok(200)
+                  description: all received data is correct
+                Example2:
+                  value:
+                    status: error
+                    result_message: Too big number
+                  summary: Code ok(200)
+                  description: wrong data
+          description: ''
+components:
+  schemas:
+    Predictions_currency_Serializers:
+      type: object
+      properties:
+        status:
+          type: string
+        res:
+          type: string
+      required:
+      - res
+      - status
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
