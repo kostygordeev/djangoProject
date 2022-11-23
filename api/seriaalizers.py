@@ -10,7 +10,7 @@ from rest_framework import serializers
             description="all received data is correct",
             value={
                 "status": "ok",
-                "result_message": "plot59.png"
+                "res": "plot59.png"
             }
         ),
         OpenApiExample(
@@ -19,7 +19,7 @@ from rest_framework import serializers
             description="wrong data",
             value={
                 'status': "error",
-                "result_message": "Too big number"
+                "res": "Too big number"
             }
         )
     ]
