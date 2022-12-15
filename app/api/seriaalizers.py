@@ -27,3 +27,7 @@ from rest_framework import serializers
 class Predictions_currency_Serializers(serializers.Serializer):
     status = serializers.CharField()
     res = serializers.CharField()
+
+class ImageFromPillowSerializer(serializers.Serializer):
+    image_base64 = serializers.CharField()
+    encoding = serializers.CharField()

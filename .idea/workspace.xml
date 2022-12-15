@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55bcf88d-c566-4c46-961e-aa7c11781930" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.idea/djangoProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/seriaalizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/predictions_currency.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/func_app/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/OLD/plot9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/plot76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Itdrl8yOyNNhGK6f3iSn8rwmCF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55bcf88d-c566-4c46-961e-aa7c11781930" name="Changes" comment="" />
+      <created>1671005017678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671005017678</updated>
+      <workItem from="1671005020930" duration="3919000" />
+      <workItem from="1671009603456" duration="5599000" />
+      <workItem from="1671018011067" duration="1774000" />
+      <workItem from="1671032356286" duration="6818000" />
+      <workItem from="1671086463708" duration="1354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
