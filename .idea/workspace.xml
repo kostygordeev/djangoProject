@@ -2,114 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55bcf88d-c566-4c46-961e-aa7c11781930" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.idea/djangoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/seriaalizers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/constants.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/predictions_currency.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/func_app/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/OLD/plot9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/index.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/plot76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schema.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app_uwsgi.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/app_nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,17 +32,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/projectpy/djangoProject/http-client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\projectpy\djangoProject\http-client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predictions_currency" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="djangoProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/func_app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/func_app/predictions_currency.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.predictions_currency" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -154,6 +114,9 @@
       <workItem from="1671018011067" duration="1774000" />
       <workItem from="1671032356286" duration="6818000" />
       <workItem from="1671086463708" duration="1354000" />
+      <workItem from="1671223669848" duration="82000" />
+      <workItem from="1671276600130" duration="9706000" />
+      <workItem from="1671350678622" duration="13860000" />
     </task>
     <servers />
   </component>
@@ -170,5 +133,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/djangoProject$predictions_currency.coverage" NAME="predictions_currency Coverage Results" MODIFIED="1671382404052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/func_app" />
+    <SUITE FILE_PATH="coverage/djangoProject$settings.coverage" NAME="settings Coverage Results" MODIFIED="1671381772972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/djangoProject" />
+    <SUITE FILE_PATH="coverage/djangoProject$manage.coverage" NAME="manage Coverage Results" MODIFIED="1671382617995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>
