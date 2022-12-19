@@ -10,7 +10,7 @@
                 $myCurl = curl_init();
                 curl_setopt_array($myCurl, array(
                     CURLOPT_URL =>
-                    "http://nginxserver/api?days_num=".$_POST['days_num']."&num_days=".$_POST['num_days']."&api_key=Lgku6FU6fOIGOG6Fu6DFuty5Du4sUdo87FGoIHJp9UO7tU6u64su65Du67fO8Y0PJHo8G6dtdfxR",
+                    "http://nginxserver/api?days_num=".$_POST['days_num']."&num_days=".$_POST['num_days'],
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_HEADER => false,
                 ));
@@ -19,7 +19,7 @@
 
                 $response_array = json_decode($response, true);
                 $status = $response_array['status'];
-                $message = $response_array['result_message'];
+                $message = $response_array['res'];
 
                 echo "Статус запроса: ".$status.", сообщение: ".$message;
             }
@@ -29,7 +29,7 @@
             <input type="text" name="days_num" id="days_num" required>
             <label for="num_days">Число дней на которой применяется анализ:</label>
             <input type="text" name="num_days" id="num_days" required>
-            <input type="submit" value="ПРЕДСКАЗАТЬ!">
+            <input type="submit" value="RUN!">
         </form>
         <h3>Получить изображение</h3>
         <?php
@@ -46,7 +46,7 @@
 
                 $myCurl = curl_init();
                 curl_setopt_array($myCurl, array(
-                    CURLOPT_URL => "http://nginxserver/image/".$_POST['image_name'],
+                    CURLOPT_URL => "http://nginxserver/img/".$_POST['image_name'],
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_HEADER => false,
                 ));
@@ -70,7 +70,7 @@
             <label for="image_name">Имя изображения:</label>
             <input type="text" name="image_name" id="image_name" required>
             <input type="hidden" name="image" id ="image" value=1/>
-            <input type="submit" value="ПОЛУЧИТЬ ИЗОБРАЖЕНИЕ!">
+            <input type="submit" value="GET IMAGE!">
         </form>
     </body>
 </html>

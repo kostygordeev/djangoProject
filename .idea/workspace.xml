@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55bcf88d-c566-4c46-961e-aa7c11781930" name="Changes" comment="" />
+    <list default="true" id="55bcf88d-c566-4c46-961e-aa7c11781930" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/djangoProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/djangoProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/func_app/predictions_currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/func_app/predictions_currency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-client/src/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/http-client/src/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,6 +112,10 @@
       <workItem from="1671276600130" duration="9706000" />
       <workItem from="1671350678622" duration="13860000" />
       <workItem from="1671384293462" duration="14000" />
+      <workItem from="1671384866415" duration="11111000" />
+      <workItem from="1671443778721" duration="677000" />
+      <workItem from="1671446006030" duration="592000" />
+      <workItem from="1671462384459" duration="1653000" />
     </task>
     <servers />
   </component>

@@ -76,10 +76,10 @@ def encode_image(image_path):
 
 def save_plot():
     index = -1
-    with open(".\\media\\index.txt", 'r') as fi:
+    with open(f"./media/index.txt", 'r') as fi:
         index = int(fi.read())
-    with open(".\\media\\index.txt", 'w') as fo:
+    with open(f"./media/index.txt", 'w') as fo:
         fo.write(str(index + 1))
     filename = "plot" + str(index) + ".png"
-    plt.savefig(".\\media\\" + filename)
+    plt.savefig(f"./media/" + filename)
     return filename
